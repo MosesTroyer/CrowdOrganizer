@@ -1,0 +1,90 @@
+// WARNING:  If you get the right output but you use something
+//     other than a MinHeap to implement the Priority Queue,
+//     then you'll get ZERO POINTS for this assignment.
+//     (In particular, do NOT use a linear implementation or
+//     sorting or some built-in list structure or. . .)
+//
+//
+// Opening the store causes the PrQ to be formed based
+//     on the data in LineAt6Am file
+OpenStore
+// At this point there are 21 customers in the PrQ
+// Now serve the "1st" 16 customers in the PrQ
+//     meaning, print their info to the Log file
+//          and delete them from the PrQ
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+ServeACustomer
+// 16 customers were served, which should be in this order:
+// 	Tied - in what order???
+//	    6		Bob O'Leary Sr.
+//	    6		Jim O'Leary
+//	 19	Rosie O'Brien
+//	 30	Bob O'Leary
+//	 65	Stan Anderson
+//	 66	Mary Smith
+//	 71	Aziz Gupta
+//	 78	Maria Garcia
+//	 82	Roman Zwykowicz
+//	 83	Josh Miller
+//	 94	Rajesh Patel
+//	 Tied - in what order???
+//	    102	John Doe
+//	    102	Lynn VanderCook
+//	 Tied - in what order???
+//	    105	Malia AlFaleh
+//	    105	Ling Yin
+//	 106	Li Sung
+// The remaining PrQ contains these 5 people, not necessarily
+//      in this physical order in the array
+//	107	Jamal Brown
+//	108	Latisha Ford
+//	109	Su Chan
+//	118	Mohsin Waleed
+//	119	Abdalla AlSaid
+// Now add some new customers to the PrQ
+//     where the nextInLine number should be 122
+// 122-80 				-> 42
+NewCustomer,Lottie Zipnowski,owner,,41
+// 123-10 				-> 113
+NewCustomer,Jack Larson,,superVip,25
+// 124-25-10 				-> 89
+NewCustomer,Fallah Ola,employee,superVip,65
+// 125					-> 125
+NewCustomer,Jun Sung,,,35
+// 126-15-15				-> 96
+NewCustomer,Mrs. VanDooran,,,85
+// There are now 10 people in the PrQ
+ServeACustomer
+ServeACustomer
+ServeACustomer
+// This should have served (in this order):
+//	42 	Lottie Zipnowski
+//	89	Fallah Ola
+//	96	Mrs. VanDooran
+// And there are still 7 people in the PrQ
+// Closing the store will empty out the PrQ completely
+CloseStore
+// resulting in the following customers being served
+//     (in this order)
+//	107	Jamal Brown
+//	108	Litisha Ford
+//	109 	Su Chan
+//	113	Jack Larson
+//	118	Mohsin Waleed
+//	119	Abdalla AlSaid
+//	125	Jun Sung
+// And the heap is now empty

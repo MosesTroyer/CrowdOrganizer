@@ -1,0 +1,39 @@
+**Crowd Organizer App starting
+STORE OPENING
+**initial heap built containing 21 nodes
+
+SERVE CUSTOMER: Bob O'Leary Sr. (6)
+SERVE CUSTOMER: Jim O'Leary (6)
+SERVE CUSTOMER: Rosie O'Brien (19)
+SERVE CUSTOMER: Bob O'Leary (30)
+SERVE CUSTOMER: Stan Anderson (65)
+SERVE CUSTOMER: Mary Smith (66)
+SERVE CUSTOMER: Aziz Gupta (71)
+SERVE CUSTOMER: Maria Garcia (78)
+SERVE CUSTOMER: Roman Zwykowicz (82)
+SERVE CUSTOMER: Josh Miller (83)
+SERVE CUSTOMER: Rajesh Patel (94)
+SERVE CUSTOMER: John Doe (102)
+SERVE CUSTOMER: Lynn VanderCook (102)
+SERVE CUSTOMER: Ling Yin (105)
+SERVE CUSTOMER: Malia AlFaleh (105)
+SERVE CUSTOMER: Li Sung (106)
+NEW CUSTOMER: Lottie Zipnowski (42)
+NEW CUSTOMER: Jack Larson (113)
+NEW CUSTOMER: Fallah Ola (74)
+NEW CUSTOMER: Jun Sung (125)
+NEW CUSTOMER: Mrs. VanDooran (96)
+SERVE CUSTOMER: Lottie Zipnowski (42)
+SERVE CUSTOMER: Fallah Ola (74)
+SERVE CUSTOMER: Mrs. VanDooran (96)
+STORE CLOSING---------------------------
+**heap currently has 7 nodes remaining
+SERVE CUSTOMER: Jamal Brown (107)
+SERVE CUSTOMER: Latisha Ford (108)
+SERVE CUSTOMER: Su Chan (109)
+SERVE CUSTOMER: Jack Larson (113)
+SERVE CUSTOMER: Mohsin Waleed (118)
+SERVE CUSTOMER: Abdalla AlSaid (119)
+SERVE CUSTOMER: Jun Sung (125)
+**heap now empty
+**Crowd Organizer App ending

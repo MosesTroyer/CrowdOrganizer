@@ -1,0 +1,69 @@
+// nextInLine counter starts with 101
+//
+// 101-5-15-15 for Mary’s priorityValue-> 66
+Mary Smith,,vip,80
+//
+// 102                                 -> 102
+John Doe,,,25
+//
+// 103-25                              -> 78
+Maria Garcia,employee,,64
+//
+// 104-10                              -> 94
+Rajesh Patel,,superVip,57
+//
+// 105                                 -> 105
+Malia AlFaleh,,,30
+//
+// 106                                 -> 106
+Li Sung,,,42
+//
+// 107                                 -> 107
+Jamal Brown,,,50
+//
+// 108                                 -> 108
+Latisha Ford,,,18
+//
+// 109                                 -> 109
+Su Chan,,,25
+//
+// 110-80 will bubble up to root       -> 30
+Bob O'Leary,owner,,40
+//
+// 111-10-15-15                        -> 71
+Aziz Gupta,,superVIP,81
+//
+// 112-25-5                            -> 82
+Roman Zwykowicz,employee,vip,25
+//
+// 113-15-15                           -> 83
+Josh Miller,,,82
+//
+// 114-80-15 will bubble up to root    -> 19
+Rosie O'Brien,owner,,65
+//
+// 115-25-10-15                        -> 65
+Stan Anderson,employee,superVIP,68
+//
+// 116-80-15-15 goes up to root        -> 6
+Bob O'Leary Sr.,owner,,80
+//
+// 117-15, a tie on leaf-to-root path
+//   (so NO swap with =)               -> 102
+Lynn VanderCook,,,66
+//
+// 118                                 -> 118
+Mohsin Waleed,,,20
+//
+// 119                                 -> 119
+Abdalla AlSaid,,,25
+//
+// 120-15, a tie (so NO swap with =)   -> 105
+Ling Yin,,,65
+//
+// 121-80-5-15-15, tie with root,      -> 6
+//   so bubble up, but NO swap with =
+Jim O'Leary,owner,vip,90
+//
+//
+// there have been 21 customers so far in line
